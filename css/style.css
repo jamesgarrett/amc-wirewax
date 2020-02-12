@@ -3,6 +3,8 @@
   font-family: stymie-condensed, Georgia, serif;
   font-weight: 500;
   font-style: normal;
+  font-weight: 500;
+  padding: 1vw;
   text-align: center;
 }
 
@@ -11,6 +13,10 @@ h1{
   max-width: 66.6rem;
   margin: 2rem auto;
   color: #efefef;
+}
+
+a{
+  text-decoration: none;
 }
 
 html{
@@ -36,10 +42,10 @@ body{
   background-color: black;
   background-size: cover;
   background-position: center;
-  margin: 1vw .5vw;
+  margin: 0px .25vw .75vh;
   max-width: 32vw;
-  min-width: 320px;
-  height: 180px;
+  min-width: 240px;
+  height: 135px;
   display: flex;
   flex-shrink: 0;
   flex-grow: 1;
