@@ -76,8 +76,6 @@ body{
   visibility:hidden;
 }
 
-
-
 @media screen and (min-width:480px){
   .card{
     max-width:50vw;
