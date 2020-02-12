@@ -1,0 +1,39 @@
+.insert-wrap{
+  width:100%;
+}
+
+.row{
+  display:flex;
+  flex-direction:row;
+  width:100%;
+}
+
+.card{
+  background-color:black;
+  background-size:cover;
+  background-position:center;
+  margin:1vw .5vw;
+  width: 320px;
+  height:180px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  cursor:pointer;
+}
+
+.card img{
+	width:inherit;
+}
+
+.card:hover .button{
+  visibility:visible;
+}
+
+.card .button{
+  background:red;
+  color:white;
+  font-family:'futura';
+  font-weight:600;
+  padding:10px 15px;
+  visibility:hidden;
+}
