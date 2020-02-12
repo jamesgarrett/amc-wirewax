@@ -1,0 +1,135 @@
+.headline-1{
+  font-family: stymie-condensed, Georgia, serif;
+  font-size: 3.75rem;
+  font-weight: 500;
+  text-transform: capitalize;
+  line-height: 4.25rem;
+  letter-spacing: -0.068rem;
+}
+
+.headline-2{
+  font-family: stymie-condensed, Georgia, serif;
+  font-size: 3rem;
+  font-weight: 200;
+  text-transform: capitalize;
+  line-height: 3.25rem;letter-spacing: -0.5px;
+}
+
+.headline-3{
+  font-family: stymie-condensed, Georgia, serif;
+  font-size: 2rem;
+  font-weight: 200;
+  line-height: 2.25rem;
+  letter-spacing: 1px;
+}
+
+.headline-3--strong{
+  font-family: stymie-condensed, Georgia, serif;
+  font-size: 2rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 2.25rem;
+  letter-spacing: 1px;
+}
+
+.headline-4{
+  font-family: stymie-condensed, Georgia, serif;
+  font-size: 1.5rem;
+  font-weight: 300;
+  line-height: 1.75rem;  
+  letter-spacing: .25px;
+}
+
+.headline-5{
+  font-family: stymie-condensed, Georgia, serif;
+  font-size: 1.25rem;
+  font-weight: 300;
+  line-height: 1.75rem;
+  letter-spacing: .25px;
+}
+
+.headline-5--strong{
+  font-family: stymie-condensed, Georgia, serif;
+  font-size: 1.25rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 1.75rem;
+  letter-spacing: 2px;
+}
+
+.headline-6{
+  font-family: stymie-condensed, Georgia, serif;
+  font-size: 1.125rem;
+  font-weight: 300;
+  line-height: 1.25rem;;
+  letter-spacing: 2px;
+}
+
+.body-1{
+  font-family: stymie-condensed, Georgia, serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: normal;
+}
+
+.body-2{
+  font-family: stymie-condensed, Georgia, serif;
+  font-size: .875rem;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.43;
+  letter-spacing: normal;
+}
+
+.subhead-1{
+  font-family: stymie-condensed, Georgia, serif;
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 1.25;
+  letter-spacing: normal;
+}
+
+.subhead-2{
+  font-family: stymie-condensed, Georgia, serif;
+  font-size: .875rem;
+  font-weight: 300;
+  line-height: 1.14;
+  letter-spacing: normal;
+}
+
+.button{
+  font-family: stymie-condensed, Georgia, serif;
+  font-size: 1rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  line-height: 1.125;
+  letter-spacing: 1.25px;
+}
+
+.caption{
+  font-family: stymie-condensed, Georgia, serif;
+  font-size: .875rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  line-height: 1;
+  letter-spacing: 1px;
+}
+
+.label{
+  font-family: stymie-condensed, Georgia, serif;
+  font-size: .75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  line-height: .875;
+  letter-spacing: 1.5px;
+}
+
+p{
+  font-family: stymie-condensed, Georgia, serif;
+  font-weight: 300;
+  font-style: normal;
+  line-height: 1;
+  margin-top:0;
+  margin-bottom:1rem;
+}
