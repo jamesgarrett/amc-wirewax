@@ -1,1 +1,3 @@
-# amc-wirewax
+# wirewax
+
+templates for wirewax projects
