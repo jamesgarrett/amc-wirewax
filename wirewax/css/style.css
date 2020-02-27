@@ -35,12 +35,11 @@ body{
 }
 
 .row{
-  display: flex;
-  flex-direction: row;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
   width: 100%;
-  flex-wrap: wrap;
+  max-width:1200px;
   justify-content: center;
-  /*max-width:1200px;*/
   margin:0 auto;
 }
 
@@ -49,8 +48,8 @@ body{
   background-size: cover;
   background-position: center;
   margin: 0px 4px 4px 0px;
-  width: 220px;
-  height: 155px;
+  height: 0;
+  padding-top:56.25%;
   display: flex;
   flex-shrink: 0;
   flex-grow: 1;
@@ -81,36 +80,4 @@ body{
   padding-right: 10px;
   font-weight:600;
   opacity:0;
-}
-
-@media screen and (min-width:480px){
-  .card{
-    max-width:50vw;
-  }
-}
-
-@media screen and (min-width:717px){
-  .card{
-    max-width:32vw;
-  }
-}
-
-@media screen and (min-width:956px){
-  .card{
-    max-width:25vw;
-  }
-}
-
-@media screen and (min-width:1192px){
-  .card{
-    flex-basis:20%;
-    max-width:20vw;
-    height: 175px;
-  }
-}
-
-@media screen and (min-width:1440px){
-  .card{
-    height: 200px;
-  }
 }
