@@ -19,10 +19,6 @@ a{
   text-decoration: none;
 }
 
-html{
-  font-size: calc(16 * 100vw / 1440);
-}
-
 body{
   width: 100%;
   height: 100%;
@@ -76,7 +72,7 @@ body{
   justify-content: flex-end;
   color: mediumspringgreen;
   border: 2px solid mediumspringgreen;
-  font-size:2rem;
+  font-size:1.25rem;
   transition: opacity .75s;
   font-family: 'futura', helevtica neue;
   line-height: 2rem;
@@ -85,6 +81,10 @@ body{
 }
 
 @media screen and (max-width:768px){
+  h1.headline-1{
+    font-size: 2.75rem;
+    line-height: 2.85rem;
+  }
   body{
     align-items:flex-start;
   }
